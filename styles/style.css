@@ -389,10 +389,9 @@ body {
 /*---------------- media query styles ---------------- */
 
 /*---------------- media query for mobile devices ---------------- */
-@media only screen and (min-width:280px) and (max-width:480px) {
+@media only screen and (min-width:280px) and (max-width:576px) {
     body {
         margin: 0 auto;
-        /* border: 2px dotted rgb(214, 174, 214); */
     }
 
     .main-content {
@@ -513,9 +512,10 @@ body {
 
 
 /*---------------- media query for tablet devices ---------------- */
-@media only screen and (min-width:481px) and (max-width:991px) {
+@media only screen and (min-width:577px) and (max-width:991px) {
     body {
         margin: 0 auto;
+        border: 2px dashed plum;
     }
 
     .main-content {
@@ -524,7 +524,6 @@ body {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-
     }
 
     .top-banner {
@@ -563,7 +562,7 @@ body {
 
     .banner-img {
         width: 50%;
-        height: 80%;
+        height: 82%;
         position: relative;
         margin-bottom: -70px;
     }
@@ -593,7 +592,6 @@ body {
         margin: 0 auto;
         margin-bottom: 50px;
         margin-top: -100px;
-
     }
 
     .sidebar-btn {
@@ -602,6 +600,7 @@ body {
 
     .right-blogs,
     .right-matches {
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
         margin-top: -10px;
@@ -610,6 +609,25 @@ body {
         padding: 0;
     }
 
+    .blog,
+    .match {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px lightgray;
+    }
+
+    .blog img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .blog-details,
+    .match-details {
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
 
     #blog7,
     #blog8,
@@ -636,6 +654,12 @@ body {
         text-align: center;
         padding-top: 10px;
     }
+
+    .view-btn:hover {
+        background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+        box-shadow: 3px 3px 3px rgb(83, 88, 84);
+    }
+
 
 
     .footer-details {
