@@ -501,9 +501,9 @@ body {
         margin-bottom: 45px;
     }
 
-    #blog7,
-    #blog8,
-    #blog9 {
+    #blog7-hide,
+    #blog8-hide,
+    #blog9-hide {
         display: none;
     }
 
@@ -670,7 +670,7 @@ body {
         margin-bottom: 45px;
     }
 
-    
+
     #blog7-view,
     #blog8-view,
     #blog9-view {
