@@ -211,8 +211,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 17px;
     background-color: rgba(211, 211, 211, 0.349);
+    box-shadow: 2px 2px 3px rgb(113, 114, 114);
+}
+
+.live-btn:hover {
+    font-size: 17px;
+    box-shadow: 2px 2px 3px rgb(3, 3, 3);
+    background-color: rgba(170, 167, 167, 0.349);
 }
 
 .blog h3,
@@ -228,6 +235,17 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
+}
+
+.blog-info a {
+    text-decoration: none;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.blog-info a:hover {
+    font-weight: bold;
+    color: #161616;
+    font-size: 17px;
 }
 
 .blog-info span {
