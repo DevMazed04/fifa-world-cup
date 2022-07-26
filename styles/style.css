@@ -670,19 +670,30 @@ body {
         margin-bottom: 45px;
     }
 
-    #blog7,
-    #blog8,
-    #blog9 {
+    
+    #blog7-view,
+    #blog8-view,
+    #blog9-view {
+        display: block;
+    }
+
+    #blog7-hide,
+    #blog8-hide,
+    #blog9-hide {
         display: none;
     }
 
-    #view {
+
+    #view,
+    #hide {
         display: block;
         margin: 0 auto;
         margin-top: 60px;
     }
 
-    .view-btn {
+
+    .view-btn,
+    .hide-btn {
         width: 150px;
         height: 40px;
         text-decoration: none;
@@ -696,7 +707,8 @@ body {
         padding-top: 10px;
     }
 
-    .view-btn:hover {
+    .view-btn:hover,
+    .hide-btn:hover {
         background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
         box-shadow: 3px 3px 3px rgb(83, 88, 84);
     }
@@ -715,7 +727,7 @@ body {
         margin-bottom: 80px;
     }
 
-    .footer-details h2{
+    .footer-details h2 {
         margin-top: 0;
     }
 
