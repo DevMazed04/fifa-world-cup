@@ -367,6 +367,10 @@ body {
     color: #B9B9B9;
 }
 
+.footer-tab a:hover {
+    text-decoration: underline;
+}
+
 .footer-social-icons {
     text-align: center;
     margin-top: -50px;
@@ -374,6 +378,7 @@ body {
 
 .footer-social-icons p {
     font-size: 17px;
+
 }
 
 .fa-brands {
@@ -381,21 +386,33 @@ body {
     padding: 15px;
 }
 
+
 .fa-facebook {
     color: #4267B2;
 }
+
+.fa-facebook:hover {
+    font-weight: bold;
+}
+
 
 .fa-youtube {
     color: #FF0000;
 }
 
+.fa-youtube:hover {
+    font-weight: bold;
+}
+
+
 .fa-twitter {
     color: #00acee;
 }
 
-.social-group1 {
-    color: #4267B2;
+.fa-twitter:hover {
+    font-weight: bold;
 }
+
 
 .copyright-text {
     text-align: center;
